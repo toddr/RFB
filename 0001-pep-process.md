@@ -442,26 +442,28 @@ PPE Header Preamble
 ===================
 
 Each PPE must begin with an RFC 822 style header preamble.  The headers
-must appear in the following order.  Headers marked with "*" are
+must appear in the following order.  Headers marked with `**Optional**` are
 optional and are described below.  All other headers are required. ::
 
-    PPE: <pep number>
-    Title: <pep title>
-    Author: <list of authors' real names and optionally, email addrs>
-  * Sponsor: <real name of sponsor>
-  * Pumpking-Delegate: <PPE czar's real name>
-  * Discussions-To: <email address>
-    Status: <Draft | Active | Accepted | Provisional | Deferred | Rejected |
-             Withdrawn | Final | Superseded>
-    Type: <Standards Track | Informational | Process>
-  * Content-Type: <text/x-rst | text/plain>
-  * Requires: <pep numbers>
-    Created: <date created on, in dd-mmm-yyyy format>
-  * Perl-Version: <version number>
-    Post-History: <dates of postings to python-ideas and/or P5P>
-  * Replaces: <pep number>
-  * Superseded-By: <pep number>
-  * Resolution: <url>
+```
+* PPE: <pep number>
+* Title: <pep title>
+* Author: <list of authors' real names and optionally, email addrs>
+* Sponsor: <real name of sponsor>  **Optional**
+* Pumpking-Delegate: <PPE czar's real name>  **Optional**
+* Discussions-To: <email address>  **Optional**
+* Status: <Draft | Active | Accepted | Provisional | Deferred | Rejected |
+           Withdrawn | Final | Superseded>
+* Type: <Standards Track | Informational | Process>
+* Content-Type: <text/markdown>  **Optional**
+* Requires: <pep numbers>  **Optional**
+* Created: <date created on, in dd-mmm-yyyy format>
+* Perl-Version: <version number>  **Optional**
+* Post-History: <dates of postings to python-ideas and/or P5P>
+* Replaces: <pep number>  **Optional**
+* Superseded-By: <pep number>  **Optional**
+* Resolution: <url>  **Optional**
+```
 
 The Author header lists the names, and optionally the email addresses
 of all the authors/owners of the PPE.  The format of the Author header
