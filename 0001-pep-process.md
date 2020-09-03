@@ -599,41 +599,22 @@ mentioning `@perl/ppe-editors` on GitHub.
 
 For each new PPE that comes in an editor does the following:
 
-* Make sure that the PPE is either co-authored by a core developer, has a core
+1. Make sure that the PPE is either co-authored by a core developer, has a core
   developer as a sponsor, or has a sponsor specifically approved for this PPE
   by the Pumpking.
-
-* Read the PPE to check if it is ready: sound and complete.  The ideas
+2. Read the PPE to check if it is ready: sound and complete.  The ideas
   must make technical sense, even if they don't seem likely to be
   accepted.
-
-* The title should accurately describe the content.
-
-* The file name extension (`.md`) is correct.
-
-* Skim the PPE for obvious defects in language (spelling, grammar,
-  sentence structure, etc.). Editors may correct problems themselves, but are
-  not required to do so.
-
-If the PPE isn't ready, an editor will send it back to the author for
-revision, with specific instructions.
-
-Once the PPE is ready for the repository, a PPE editor will:
-
-* Assign a PPE number (almost always just the next available number,
-  but sometimes it's a special/joke number, like 666 or 3141).
-
-* Check that the author has correctly labeled the PPE's type
-  ("Standards Track", "Informational", or "Process"), and marked its
-  status as "Draft".
-
-* Add the PPE to a local fork of the [PPE repository](http://github.com/perl/ppe).
-
-   https://github.com/perl/PPE
-
-* Commit and push the new (or updated) PPE
-
-* Send email back to the PPE author with next steps. Post to P5P.
+3. The title should accurately describe the content.
+4. The file name extension (`.md`) is correct.
+5. Skim the PPE for obvious defects in language (spelling, grammar, sentence structure, etc.). Editors may correct problems themselves, but are not required to do so.
+    * If the PPE isn't ready, an editor will send it back to the author for revision, with specific instructions.
+    * Once the PPE is ready for the repository, a PPE editor will:
+6. Assign a PPE number (almost always just the next available number, but sometimes it's a special/joke number, like 666 or 3141).
+7. Check that the author has correctly labeled the PPE's type ("Standards Track", "Informational", or "Process"), and marked its status as "Draft".
+8. Add the PPE to a local fork of the [PPE repository](http://github.com/perl/ppe).
+9. Commit and push the new (or updated) PPE
+10. Send email back to the PPE author with next steps. Post to P5P.
 
 Updates to existing PPEs should be submitted as a [GitHub pull request](https://github.com/perl/PPE/pulls).
 
