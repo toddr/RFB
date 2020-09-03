@@ -461,7 +461,7 @@ optional and are described below.  All other headers are required. ::
 * Type: <Standards Track | Informational | Process>
 * Content-Type: <text/markdown>  **Optional**
 * Requires: <pep numbers>  **Optional**
-* Created: <date created on, in dd-mmm-yyyy format>
+* Created: <date created on, in yyyy-mm-dd format>
 * Perl-Version: <version number>  **Optional**
 * Post-History: <dates of postings to P5P>
 * Replaces: <pep number>  **Optional**
