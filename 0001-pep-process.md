@@ -1,9 +1,13 @@
 # PPE-1 - PPE Purpose and Guidelines
 
+* PPE: 1
+* Title: PPE Purpose and Guidelines
+* Author: Todd Rinaldo <toddr@cpan.org>
+* Status: Active
 * Type: Process
 * Created: 2020-09-03
 * Sponsor: Todd Rinaldo
-* Status: Active
+* Post-History: TBD
 
 ## What is a PPE?
 
@@ -459,7 +463,7 @@ optional and are described below.  All other headers are required. ::
 * Requires: <pep numbers>  **Optional**
 * Created: <date created on, in dd-mmm-yyyy format>
 * Perl-Version: <version number>  **Optional**
-* Post-History: <dates of postings to python-ideas and/or P5P>
+* Post-History: <dates of postings to P5P>
 * Replaces: <pep number>  **Optional**
 * Superseded-By: <pep number>  **Optional**
 * Resolution: <url>  **Optional**
@@ -634,5 +638,5 @@ None yet.
 
 ## Copyright
 
-You can redistribute and/or modify this under the same terms as the Perl programming language system itself.
+This document is placed in the public domain or under the CC0-1.0-Universal license, whichever is more permissive.
 
