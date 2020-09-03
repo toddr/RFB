@@ -505,9 +505,8 @@ P5P, a Discussions-To header will indicate the mailing list
 or URL where the pronouncement will occur. A temporary Discussions-To header
 may also be used when a draft PPE is being discussed prior to submission for
 pronouncement. No Discussions-To header is necessary if the PPE is being
-discussed privately with the author, or on the python-list, python-ideas
-or P5P mailing lists.  Note that email addresses in the
-Discussions-To header will not be obscured.
+discussed privately with the author, or on the P5P mailing lists.
+Note that email addresses in the Discussions-To header will not be obscured.
 
 The Type header specifies the type of PPE: Standards Track,
 Informational, or Process.
@@ -517,8 +516,7 @@ acceptable values are "text/markdown".
 
 The Created header records the date that the PPE was assigned a
 number, while Post-History is used to record the dates of when new
-versions of the PPE are posted to python-ideas and/or P5P.  Both
-headers should be in yyyy-mm-dd format, e.g. 2020-09-03.
+versions of the PPE are posted to P5P. Both headers should be in yyyy-mm-dd format, e.g. 2020-09-03.
 
 Standards Track PPEs will typically have a Perl-Version header which
 indicates the version of Perl that the feature will be released with.
