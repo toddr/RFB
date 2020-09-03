@@ -433,7 +433,7 @@ Each PPE should have the following parts/sections:
 
 12. References -- A collection of URLs used as references through the PPE.
 
-13. Copyright/license -- Each new PPE must be placed under the same terms as the Perl 5 programming language system itself.
+13. Copyright/license: `This document is placed in the public domain or under the CC0-1.0-Universal license, whichever is more permissive.`
 
 ## PPE Formats and Templates
 
