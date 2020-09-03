@@ -2,7 +2,7 @@
 
 * PPE: 1
 * Title: PPE Purpose and Guidelines
-* Author: Todd Rinaldo <toddr@cpan.org>
+* Author: `Todd Rinaldo <toddr@cpan.org>`
 * Status: Active
 * Type: Process
 * Created: 2020-09-03
