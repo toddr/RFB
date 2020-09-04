@@ -1,6 +1,6 @@
-# RFB-1 - RFB Purpose and Guidelines
+# RFB-0001 - RFB Purpose and Guidelines
 
-* RFB: 1
+* RFB: 0001
 * Title: RFB Purpose and Guidelines
 * Author: `Todd Rinaldo <toddr@cpan.org>`
 * Status: Active
