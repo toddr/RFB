@@ -1,5 +1,5 @@
-# Perl Proposal for Enhancement (PPEs)
+# Perl Request for Bikeshed (RFBs)
 
-Perl Proposal for Enhancement (PPEs) are a formal way of proposing changes related to the development of the Perl Core Language.
+Request for Bikeshed (RFBs) are a formal way of proposing changes related to the development of the Perl Core Language.
 
-See [PPE 1](0001-pep-process.md) for details.
+See [PPE 1](0001-rfb-process.md) for details.
