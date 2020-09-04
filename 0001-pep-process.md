@@ -76,11 +76,11 @@ the current project lead for the language. The Pumpking is the final PPE decisio
 ### Perl's Core Developers
 
 There are several references in this PPE to "core developers". This refers to
-the currently active Perl core team members. <-- TODO Define where this list and the CRUD process.
+the currently active Perl core team members. <-- TODO Define where this list is, and the CRUD process.
 
 ### Pumpking-Delegate
 
-This is a role delegated by the Pumpking who has authority to made decisions
+This is a role delegated by the Pumpking, granting authority to make decisions
 related to 1 or more PPEs.
 
 ### PPE Editors
@@ -126,10 +126,10 @@ the idea is applicable to the entire community and not just the author.
 Just because an idea sounds good to the author does not
 mean it will work for most people in most areas where Perl is used.
 
-Once the champion has asked the Perl community as to whether an
+Once the champion has asked the Perl community whether an
 idea has any chance of acceptance, a draft PPE should be presented to
-P5P. This gives the author a chance to flesh out the draft
-PPE to make properly formatted, of high quality, and to address
+P5P. This gives the author a chance to flesh out the draft PPE to make
+sure it is properly formatted, of high quality, and to address
 initial concerns about the proposal.
 
 ## Submitting a PPE
@@ -137,13 +137,13 @@ initial concerns about the proposal.
 Following a discussion on P5P, the workflow varies based on whether
 any of the PPE's co-authors are core developers. If one or more of the PPE's
 co-authors are core developers, they are responsible for following the process
-outlined below. Otherwise (i.e. none of the co-authors are core developers),
+outlined below. If not (i.e. if none of the co-authors are core developers),
 then the PPE author(s) will need to find a sponsor for the PPE.
 
 Ideally, a core developer sponsor is identified, but non-core sponsors may also
 be selected with the approval of the Pumpking.  The sponsor's job is to
 provide guidance to the PPE author to help them through the logistics of the
-PPE process (somewhat acting like a mentor).  Being a sponsor does **not**
+PPE process (acting somewhat like a mentor).  Being a sponsor does **not**
 disqualify that person from becoming a co-author later on.  The sponsor of
 a PPE is recorded in the "Sponsor:" field at the top of the document.
 
@@ -159,18 +159,18 @@ The standard PPE workflow is:
   `9999-ppe.md` that contains your new PPE.  Use "9999" as your draft PPE
   number.
 
-* In the "Type:" header field, enter "Standards Track",
+* In the "Type:" header field, you enter "Standards Track",
   "Informational", or "Process" as appropriate, and for the "Status:"
   field enter "Draft".  For full details, see [PPE Header Preamble](#PPE-Header-Preamble).
 
-* Push this to your GitHub fork and submit a pull request.
+* You push this to your GitHub fork and submit a pull request.
 
 * The PPE editors review your PR for structure, formatting, and other
   errors.
   
 Approval criteria are:
 
-  * It sound and complete.  The ideas must make technical sense.  The
+  * It is sound and complete.  The ideas must make technical sense.  The
     editors do not consider whether they seem likely to be accepted.
   * The title accurately describes the content.
   * The PPE's language (spelling, grammar, sentence structure, etc.)
@@ -194,20 +194,21 @@ pull request onto master.
 The PPE editors will not unreasonably deny publication of a PPE.  Reasons for
 denying PPE status include duplication of effort, being technically unsound,
 not providing proper motivation or addressing backwards compatibility, or not
-in keeping with the Perl philosophy.  The Pumpking can be consulted during
+being in keeping with Perl's philosophy.  The Pumpking can be consulted during
 the approval phase, and is the final arbiter of a draft's PPE-ability.
 
 Developers with git push privileges for the [PPE repository](http://github.com/perl/ppe) may claim PPE
 numbers directly by creating and committing a new PPE. When doing so, the
 developer must handle the tasks that would normally be taken care of by the
 PPE editors. This includes ensuring the initial version meets the expected standards for submitting a
-PPE.  Alternately, even developers should submit PPEs via pull request.
-When doing so, you are generally expected to handle the process yourself;
-if you need assistance from PPE editors, mention `@perl/ppe-editors`
+PPE.  Alternately, even developers may submit PPEs via pull request.
+When doing so, they are generally expected to handle the process themselves;
+if they need assistance from PPE editors, they should mention `@perl/ppe-editors`
 in issues or pull requests on GitHub.
 
 As updates are necessary, the PPE author can check in new versions if they
-(or a collaborating developer) have git push privileges.
+(or a collaborating developer) have git push privileges, else they can
+submit updates by way of pull requests.
 
 After a PPE number has been assigned, a draft PPE may be discussed further on
 P5P (getting a PPE number assigned early can be useful for ease of
@@ -402,7 +403,7 @@ Each PPE should have the following parts/sections:
    code to use a language change.
 
 9. Reference Implementation -- The reference implementation must be
-   completed before any PPE is given status "Final", but it need not
+   completed before any Standards Track PPE is given status "Final", but it need not
    be completed before the PPE is accepted.  While there is merit
    to the approach of reaching consensus on the specification and
    rationale before writing code, the principle of "rough consensus
@@ -414,11 +415,11 @@ Each PPE should have the following parts/sections:
    standard library reference.
 
 10. Rejected Ideas -- Throughout the discussion of a PPE, various ideas
-    will be proposed which are not accepted. Those rejected ideas should
+    may be proposed which are not accepted. Those rejected ideas should
     be recorded along with the reasoning as to why they were rejected.
     This both helps record the thought process behind the final version
     of the PPE as well as preventing people from bringing up the same
-    rejected idea again in subsequent discussions.
+    rejected ideas again in subsequent discussions.
 
     In a way this section can be thought of as a breakout section of the
     Rationale section that is focused specifically on why certain ideas
@@ -428,8 +429,8 @@ Each PPE should have the following parts/sections:
     warrant further discussion. Those ideas should be recorded so people
     know that they are being thought about but do not have a concrete
     resolution. This helps make sure all issues required for the PPE to be
-    ready for consideration are complete complete and reduces people
-    duplicating prior discussion.
+    ready for consideration are complete and reduces duplication of
+    prior discussion.
 
 12. References -- A collection of URLs used as references through the PPE.
 
@@ -450,8 +451,8 @@ must appear in the following order.  Headers marked with `**Optional**` are
 optional and are described below.  All other headers are required. ::
 
 ```
-* PPE: <pep number>
-* Title: <pep title>
+* PPE: <ppe number>
+* Title: <ppe title>
 * Author: <list of authors' real names and optionally, email addrs>
 * Sponsor: <real name of sponsor>  **Optional**
 * Pumpking-Delegate: <PPE czar's real name>  **Optional**
@@ -460,16 +461,16 @@ optional and are described below.  All other headers are required. ::
            Withdrawn | Final | Superseded>
 * Type: <Standards Track | Informational | Process>
 * Content-Type: <text/markdown>  **Optional**
-* Requires: <pep numbers>  **Optional**
+* Requires: <ppe numbers>  **Optional**
 * Created: <date created on, in yyyy-mm-dd format>
 * Perl-Version: <version number>  **Optional**
 * Post-History: <dates of postings to P5P>
-* Replaces: <pep number>  **Optional**
-* Superseded-By: <pep number>  **Optional**
+* Replaces: <ppe numbers>  **Optional**
+* Superseded-By: <ppe number>  **Optional**
 * Resolution: <url>  **Optional**
 ```
 
-The Author header lists the names, and optionally the email addresses
+The Author header lists the names, and optionally the email addresses,
 of all the authors/owners of the PPE.  The format of the Author header
 value must be
 
@@ -494,7 +495,7 @@ out.
 The Pumpking-Delegate field is used to record the individual appointed by the
 Pumpking to make the final decision on whether or not to approve or
 reject a PPE. (The delegate's email address is currently omitted due to a
-limitation in the email address masking for reStructuredText PPEs)
+limitation in the email address masking for reStructuredText PPEs.)
 
 *Note: The Resolution header is required for Standards Track PPEs
 only.  It contains a URL that should point to an email message or
@@ -539,12 +540,12 @@ obsolete.
 ## Auxiliary Files
 
 PPEs may include auxiliary files such as diagrams.  Such files should be
-named `pep-XXXX-Y.ext`, where "XXXX" is the PPE number, "Y" is a
+named `ppe-XXXX-Y.ext`, where "XXXX" is the PPE number, "Y" is a
 serial number (starting at 1), and "ext" is replaced by the actual
 file extension (e.g. "png").
 
 Alternatively, all support files may be placed in a subdirectory called
-`pep-XXXX`, where "XXXX" is the PPE number. When using a subdirectory, there
+`ppe-XXXX`, where "XXXX" is the PPE number. When using a subdirectory, there
 are no constraints on the names used in files.
 
 
@@ -599,7 +600,7 @@ handle the tasks that would normally be taken care of by the PPE editors.
 Alternately, even developers may request assistance from PPE editors by
 mentioning `@perl/ppe-editors` on GitHub.
 
-For each new PPE that comes in an editor does the following:
+For each new PPE that comes in an editor will:
 
 1. Make sure that the PPE is either co-authored by a core developer, has a core
   developer as a sponsor, or has a sponsor specifically approved for this PPE
@@ -607,8 +608,8 @@ For each new PPE that comes in an editor does the following:
 2. Read the PPE to check if it is ready: sound and complete.  The ideas
   must make technical sense, even if they don't seem likely to be
   accepted.
-3. The title should accurately describe the content.
-4. The file name extension (`.md`) is correct.
+3. Check that the title accurately describes the content.
+4. Check that the file name extension (`.md`) is correct.
 5. Skim the PPE for obvious defects in language (spelling, grammar, sentence structure, etc.). Editors may correct problems themselves, but are not required to do so.
     * If the PPE isn't ready, an editor will send it back to the author for revision, with specific instructions.
     * Once the PPE is ready for the repository, a PPE editor will:
